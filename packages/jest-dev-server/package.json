@@ -1,0 +1,28 @@
+{
+  "name": "jest-dev-server",
+  "description": "Starts a server before your Jest tests and tears it down after.",
+  "version": "2.2.2",
+  "main": "index.js",
+  "repository": "https://github.com/smooth-code/jest-puppeteer/tree/master/packages/jest-dev-server",
+  "author": "Greg Bergé <berge.greg@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "jest",
+    "jest-environment",
+    "puppeteer",
+    "jest-puppeteer",
+    "chromeless",
+    "chrome-headless"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf lib/",
+    "build": "babel src -d lib --ignore \"*.test.js\"",
+    "dev": "yarn build --watch",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "cwd": "^0.10.0",
+    "spawnd": "^2.0.0",
+    "wait-port": "^0.2.2"
+  }
+}
