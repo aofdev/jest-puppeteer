@@ -1,5 +1,5 @@
 import fs from 'fs'
-import { setupServer, teardownServer } from 'jest-dev-server'
+import { setup: setupServer, teardown: teardownServer } from 'jest-dev-server'
 import mkdirp from 'mkdirp'
 import rimraf from 'rimraf'
 import puppeteer from 'puppeteer'

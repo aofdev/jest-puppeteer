@@ -25,12 +25,9 @@
     "puppeteer": "^1.0.0"
   },
   "dependencies": {
-    "chalk": "^2.4.0",
     "cwd": "^0.10.0",
     "lodash": "^4.17.5",
     "mkdirp": "^0.5.1",
-    "rimraf": "^2.6.2",
-    "spawnd": "^2.0.0",
-    "wait-port": "^0.2.2"
+    "rimraf": "^2.6.2"
   }
 }

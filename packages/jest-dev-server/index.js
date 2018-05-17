@@ -1,2 +1,2 @@
-module.exports.setupServer = require('./lib/global').setupServer
-module.exports.teardownServer = require('./lib/global').teardownServer
+module.exports.setup = require('./lib/global').setup
+module.exports.teardown = require('./lib/global').teardown
